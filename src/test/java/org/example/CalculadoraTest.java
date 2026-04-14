@@ -60,7 +60,7 @@ public class CalculadoraTest {
 
     @Test
     public void testResta2() {
-        assertEquals(-15, Calculadora.restar(-5, -10), "Error en resta: La diferencia calculada es incorrecta");
+        assertEquals(5, Calculadora.restar(-5, -10), "Error en resta: La diferencia calculada es incorrecta");
         System.out.println("Prueba 9 - Resta verificada con éxito");
     }
 }
